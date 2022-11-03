@@ -1,0 +1,80 @@
+body {
+    background-color: lightskyblue
+}
+
+.startButtonDiv {
+    width: 1850px;
+    height: 100px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.startButton {
+    width: 1850px;
+    height: 80px;
+    border: 20px outset blue;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+.gameBackground {
+    padding-top: 20px;
+    width: 1850px;
+    height: 780px;
+    border: 20px outset black;
+}
+
+.askedQuestion {
+    width: 1850px;
+    height: 420px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.question {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 1810px;
+    height: 340px;
+}
+
+#answer1Sect {
+    border: 5px outset black;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#answer2Sect {
+    border: 5px outset black;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#answer3Sect {
+    border: 5px outset black;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#answer4Sect {
+    border: 5px outset black;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}

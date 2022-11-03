@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="motherboardTrivia.css">
+    <script src="motherboardTrivia.js"></script>
+</head>
+
+<body>
+    <div class="startButtonDiv">
+        <button class="startButton" id="startGameButton" onclick="askQuestion()">
+            Ask Question
+        </button>
+    </div>
+    <main class="gameBackground">
+        <section class="askedQuestion">
+            <span class="question" id="question">Questions will pop up here</span>
+        </section>
+        <section class="container">
+            <button class="answer1Sect" id="answer1Sect" onclick="answer1()">
+                <span class="answer1" id="answer1">Answer 1 will pop up here</span>
+            </button>
+            <button class="answer2Sect" id="answer2Sect" onclick="answer2()">
+                <span class="answer2" id="answer2">Answer 2 will pop up here</span>
+            </button>
+            <button class="answer3Sect" id="answer3Sect" onclick="answer3()">
+                <span class="answer3" id="answer3">Answer 3 will pop up here</span>
+            </button>
+            <button class="answer4Sect" id="answer4Sect" onclick="answer4()">
+                <span class="answer4" id="answer4">Answer 4 will pop up here</span>
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>
