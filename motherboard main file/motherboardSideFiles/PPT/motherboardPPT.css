@@ -1,0 +1,868 @@
+/* body */
+
+body {
+    background-color: lightblue;
+}
+
+
+/* motherboard */
+
+.motherboardParentDiv {
+    width: 1850px;
+    height: 920px;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+
+.motherboardDiv {
+    width: 1629px;
+    height: 920px;
+    border: 20px outset black;
+}
+
+#motherboard {
+    width: 1629px;
+    height: 920px;
+}
+
+.motherboardDivRight {
+    width: 181px;
+    height: 920px;
+    border: 20px outset black;
+    text-align: center;
+}
+
+.rightSideFont {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* cpu */
+
+.cpuParentDiv {
+    width: 1850px;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 40px;
+}
+
+.cpuPicDiv {
+    width: 723px;
+    height: 650px;
+    border: 20px outset black;
+}
+
+#cpu {
+    width: 723px;
+    height: 650px;
+}
+
+.cpuInfoDiv {
+    text-align: center;
+    width: 1087px;
+    height: 650px;
+    border: 20px outset black;
+}
+
+.cpuInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* capacitor */
+
+.capacitorParentDiv {
+    width: 1850px;
+    height: 365px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.capacitorPicDiv {
+    width: 415px;
+    height: 365px;
+    border: 20px outset black;
+}
+
+#capacitor {
+    width: 415px;
+    height: 365px;
+}
+
+.capacitorInfoDiv {
+    text-align: center;
+    width: 1395px;
+    height: 365px;
+    border: 20px outset black;
+}
+
+.capacitorInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* ram */
+
+.ramParentDiv {
+    width: 1850px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.ramPicDiv {
+    width: 1165px;
+    height: 250px;
+    border: 20px outset black;
+}
+
+#ram {
+    width: 1165px;
+    height: 250px;
+}
+
+.ramInfoDiv {
+    text-align: center;
+    width: 645px;
+    height: 250px;
+    border: 20px outset black;
+}
+
+.ramInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* cpuFanMount */
+
+.cpuFanMountParentDiv {
+    width: 1850px;
+    height: 725px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.cpuFanMountPicDiv {
+    width: 760px;
+    height: 725px;
+    border: 20px outset black;
+}
+
+#cpuFanMount {
+    width: 760px;
+    height: 725px;
+}
+
+.cpuFanMountInfoDiv {
+    text-align: center;
+    width: 1050px;
+    height: 725px;
+    border: 20px outset black;
+}
+
+.cpuFanMountInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* atx */
+
+.atxParentDiv {
+    width: 1850px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.atxPicDiv {
+    width: 1000px;
+    height: 200px;
+    border: 20px outset black;
+}
+
+#atx {
+    width: 1000px;
+    height: 200px;
+}
+
+.atxInfoDiv {
+    text-align: center;
+    width: 810px;
+    height: 200px;
+    border: 20px outset black;
+}
+
+.atxInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* romBios */
+
+.romBiosParentDiv {
+    width: 1850px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.romBiosPicDiv {
+    width: 360px;
+    height: 450px;
+    border: 20px outset black;
+}
+
+#romBios {
+    width: 360px;
+    height: 450px;
+}
+
+.romBiosInfoDiv {
+    text-align: center;
+    width: 1450px;
+    height: 450px;
+    border: 20px outset black;
+}
+
+.romBiosInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* cmos */
+
+.cmosParentDiv {
+    width: 1850px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.cmosPicDiv {
+    width: 450px;
+    height: 450px;
+    border: 20px outset black;
+}
+
+#cmos {
+    width: 450px;
+    height: 450px;
+}
+
+.cmosInfoDiv {
+    text-align: center;
+    width: 1360px;
+    height: 450px;
+    border: 20px outset black;
+}
+
+.cmosInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* cpuPowerConnector */
+
+.cpuPowerConnectorParentDiv {
+    width: 1850px;
+    height: 190px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.cpuPowerConnectorPicDiv {
+    width: 190px;
+    height: 190px;
+    border: 20px outset black;
+}
+
+#cpuPowerConnector {
+    width: 190px;
+    height: 190px;
+}
+
+.cpuPowerConnectorInfoDiv {
+    text-align: center;
+    width: 1620px;
+    height: 190px;
+    border: 20px outset black;
+}
+
+.cpuPowerConnectorInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* fanPowerConnector */
+
+.fanPowerConnectorParentDiv {
+    width: 1850px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.fanPowerConnectorPicDiv {
+    width: 470px;
+    height: 440px;
+    border: 20px outset black;
+}
+
+#fanPowerConnector {
+    width: 470px;
+    height: 440px;
+}
+
+.fanPowerConnectorInfoDiv {
+    text-align: center;
+    width: 1340px;
+    height: 440px;
+    border: 20px outset black;
+}
+
+.fanPowerConnectorInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* coil */
+
+.coilParentDiv {
+    width: 1850px;
+    height: 270px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.coilPicDiv {
+    width: 420px;
+    height: 270px;
+    border: 20px outset black;
+}
+
+#coil {
+    width: 420px;
+    height: 270px;
+}
+
+.coilInfoDiv {
+    text-align: center;
+    width: 1390px;
+    height: 270px;
+    border: 20px outset black;
+}
+
+.coilInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* northBridge */
+
+.northBridgeParentDiv {
+    width: 1850px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.northBridgePicDiv {
+    width: 230px;
+    height: 550px;
+    border: 20px outset black;
+}
+
+#northBridge {
+    width: 230px;
+    height: 550px;
+}
+
+.northBridgeInfoDiv {
+    text-align: center;
+    width: 1580px;
+    height: 550px;
+    border: 20px outset black;
+}
+
+.northBridgeInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* southBridge */
+
+.southBridgeParentDiv {
+    width: 1850px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.southBridgePicDiv {
+    width: 500px;
+    height: 500px;
+    border: 20px outset black;
+}
+
+#southBridge {
+    width: 500px;
+    height: 500px;
+}
+
+.southBridgeInfoDiv {
+    text-align: center;
+    width: 1310px;
+    height: 500px;
+    border: 20px outset black;
+}
+
+.southBridgeInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* inputSlots */
+
+.inputSlotsParentDiv {
+    width: 1850px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.inputSlotsPicDiv {
+    width: 860px;
+    height: 200px;
+    border: 20px outset black;
+}
+
+#inputSlots {
+    width: 860px;
+    height: 200px;
+}
+
+.inputSlotsInfoDiv {
+    text-align: center;
+    width: 950px;
+    height: 200px;
+    border: 20px outset black;
+}
+
+.inputSlotsInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* pcie16x */
+
+.pcie16xParentDiv {
+    width: 1850px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.pcie16xPicDiv {
+    width: 1140px;
+    height: 120px;
+    border: 20px outset black;
+}
+
+#pcie16x {
+    width: 1140px;
+    height: 120px;
+}
+
+.pcie16xInfoDiv {
+    text-align: center;
+    width: 670px;
+    height: 120px;
+    border: 20px outset black;
+}
+
+.pcie16xInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* pci16x */
+
+.pci16xParentDiv {
+    width: 1850px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.pci16xPicDiv {
+    width: 1000px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+#pci16x {
+    width: 1000px;
+    height: 110px;
+}
+
+.pci16xInfoDiv {
+    text-align: center;
+    width: 810px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+.pci16xInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* pci1x */
+
+.pci1xParentDiv {
+    width: 1850px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.pci1xPicDiv {
+    width: 280px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+#pci1x {
+    width: 280px;
+    height: 110px;
+}
+
+.pci1xInfoDiv {
+    text-align: center;
+    width: 1530px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+.pci1xInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* buzzer */
+
+.buzzerParentDiv {
+    width: 1850px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.buzzerPicDiv {
+    width: 150px;
+    height: 150px;
+    border: 20px outset black;
+}
+
+#buzzer {
+    width: 150px;
+    height: 150px;
+}
+
+.buzzerInfoDiv {
+    text-align: center;
+    width: 1660px;
+    height: 150px;
+    border: 20px outset black;
+}
+
+.buzzerInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* sataSlot */
+
+.sataSlotParentDiv {
+    width: 1850px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.sataSlotPicDiv {
+    width: 370px;
+    height: 100px;
+    border: 20px outset black;
+}
+
+#sataSlot {
+    width: 370px;
+    height: 100px;
+}
+
+.sataSlotInfoDiv {
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    border: 20px outset black;
+}
+
+.sataSlotInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* jumperPin */
+
+.jumperPinParentDiv {
+    width: 1850px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.jumperPinPicDiv {
+    width: 1150px;
+    height: 300px;
+    border: 20px outset black;
+}
+
+#jumperPin {
+    width: 1150px;
+    height: 300px;
+}
+
+.jumperPinInfoDiv {
+    text-align: center;
+    width: 660px;
+    height: 300px;
+    border: 20px outset black;
+}
+
+.jumperPinInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* transistor */
+
+.transistorParentDiv {
+    width: 1850px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.transistorPicDiv {
+    width: 160px;
+    height: 150px;
+    border: 20px outset black;
+}
+
+#transistor {
+    width: 160px;
+    height: 150px;
+}
+
+.transistorInfoDiv {
+    text-align: center;
+    width: 1650px;
+    height: 150px;
+    border: 20px outset black;
+}
+
+.transistorInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* diode */
+
+.diodeParentDiv {
+    width: 1850px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.diodePicDiv {
+    width: 300px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+#diode {
+    width: 300px;
+    height: 110px;
+}
+
+.diodeInfoDiv {
+    text-align: center;
+    width: 1510px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+.diodeInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* display */
+
+.displayParentDiv {
+    width: 1850px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 40px;
+}
+
+.displayPicDiv {
+    width: 380px;
+    height: 620px;
+    border: 20px outset black;
+}
+
+#display {
+    width: 380px;
+    height: 620px;
+}
+
+.displayInfoDiv {
+    text-align: center;
+    width: 1430px;
+    height: 620px;
+    border: 20px outset black;
+}
+
+.displayInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* statusLed */
+
+.statusLedParentDiv {
+    width: 1850px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 40px;
+}
+
+.statusLedPicDiv {
+    width: 40px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+#statusLed {
+    width: 40px;
+    height: 110px;
+}
+
+.statusLedInfoDiv {
+    text-align: center;
+    width: 1770px;
+    height: 110px;
+    border: 20px outset black;
+}
+
+.statusLedInfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
